@@ -32,7 +32,8 @@ body {
 
 main,
 footer {
-    padding: 5% 20%;
+    padding: 5%;
+    margin: auto;
 }
 
 main {
@@ -42,16 +43,44 @@ main {
 }
 
 footer {
-    padding: 0 40px;
-    background-color: var(--bg-2);
+    background-color: var(--bg-1);
 }
 
-#brand-name {}
+a {
+    margin: auto;
+    padding: 5px;
+    color: var(--text-2);
+    text-decoration: none;
+}
 
-#login-form {}
+a:hover {
+    text-decoration: underline;
+}
+
+#brand-name h2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#brand-name img {
+    height: 106px;
+    width: 301.6px;
+}
+
+#login-form {
+    display: flex;
+    height: 396px;
+    width: 349.83px;
+    margin: 40px 0 0;
+    padding: 10px 0 24px;
+    flex-direction: column;
+    background-color: var(--bg-2);
+}
 
 #lang {}
 
 #links {}
 
-#copyright {}
+#copyright {
+    color: var(--text-4);
+}
